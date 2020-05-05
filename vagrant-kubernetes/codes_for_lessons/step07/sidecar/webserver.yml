@@ -14,7 +14,7 @@ spec:
       readOnly: true
       
   - name: cloner       ## サイドカー コンテナ
-    image: devikeda/c-cloner:0.1
+    image: maho/c-cloner:0.1
     env:
     - name: CONTENTS_SOURCE_URL
       value: "https://github.com/takara9/web-contents"
